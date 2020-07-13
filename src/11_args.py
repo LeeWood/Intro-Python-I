@@ -39,7 +39,7 @@ def f3(x, y = 1):
 print(f3(1, 2))  # Should print 3
 print(f3(8))     # Should print 9
 
-"""
+
 # Write a function f4 that accepts an arbitrary number of keyword arguments and
 # prints out the keys and values like so:
 #
@@ -48,12 +48,15 @@ print(f3(8))     # Should print 9
 #
 # Note: Google "python keyword arguments".
 
-# YOUR CODE HERE
+def f4(**keywords):
+    for i in keywords:
+        print( "key:", i + ", value:", keywords[i] ) 
 
 # Should print
 # key: a, value: 12
 # key: b, value: 30
 f4(a=12, b=30)
+
 
 # Should print
 # key: city, value: Berkeley
@@ -67,5 +70,4 @@ d = {
 }
 
 # How do you have to modify the f4 call below to make this work?
-f4(d)
-"""
+f4(monster=d.get("monster"), hp=d.get("hp"))
