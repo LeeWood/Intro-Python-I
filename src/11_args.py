@@ -71,3 +71,4 @@ d = {
 
 # How do you have to modify the f4 call below to make this work?
 f4(monster=d.get("monster"), hp=d.get("hp"))
+#* accessing the key value pairs of the dictionary by using the `.get()` method.
