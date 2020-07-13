@@ -29,5 +29,4 @@ print( "Process ID:", os.getpid() )
 print( "Current Working Directory:", os.getcwd() )
 
 # Print out your machine's login name
-# YOUR CODE HERE
 print ( "Login Name:", os.getlogin() )

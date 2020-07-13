@@ -46,4 +46,4 @@ print_tuple(t)  # Prints 1 2 5 7 99, one per line
 u = (1,)  # What needs to be added to make this work? 
 print_tuple(u)
 
-#tuple of a single element needs a comma after the element to iterate prpoerly. Otherwise, it's just a single integer, not a tuple. 
+# * tuple of a single element needs a comma after the element to iterate prpoerly. Otherwise, it's just a single integer, not a tuple. 

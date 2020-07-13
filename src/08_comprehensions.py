@@ -50,4 +50,4 @@ for i in x:
         y.append(int(i))
 print(y)
 
-#this works without having to alter the square brackets...could I be missing something or will this solution break under different circumstances?
+#! this works without having to alter the square brackets...could I be missing something or will this solution break under different circumstances?

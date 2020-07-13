@@ -52,8 +52,10 @@ print( waypoints )
 
 # Write a loop that prints out all the field values for all the waypoints
 for x in waypoints:
-    print( x ) #this prints out each waypoint seperately...
+    print( x ) 
+    #* this prints out each waypoint seperately...
 
 
 for x in waypoints:
-    print( x.get("lon"), x.get("lat"), x.get("name") )  #this print only the values of each waypoint key/value pair.
+    print( x.get("lon"), x.get("lat"), x.get("name") )  
+    #* this prints only the values of each waypoint key/value pair.
