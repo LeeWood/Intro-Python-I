@@ -10,7 +10,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # Note: pay close attention to your current directory when trying to open "foo.txt"
 
 f = open(r'C:\Users\Aleesha\LAMBDA_PROJECTS\cs\Intro-Python-I\src\foo.txt', 'r') 
-print( f.read() )
+print(f.read())
 f.close()
 
 
@@ -42,7 +42,7 @@ def newTxtFile():
     f.write(txt)
     f.close()
     
-    print( "file created!" )
+    print("file created!")
     
 newTxtFile()
 

@@ -5,7 +5,7 @@
 # the sum. This is what you'd consider to be a regular, normal function.
 
 def f1(x, y):
-    return( x + y )
+    return(x + y)
 
 print(f1(1, 2))
 
@@ -70,5 +70,6 @@ d = {
 }
 
 # How do you have to modify the f4 call below to make this work?
-f4(monster=d.get("monster"), hp=d.get("hp"))
 #* accessing the key value pairs of the dictionary by using the `.get()` method.
+f4(monster=d.get("monster"), hp=d.get("hp"))
+

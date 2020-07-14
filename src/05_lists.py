@@ -24,8 +24,8 @@ x.insert(5, 99)
 print(x)
 
 # Print the length of list x
-print( "list x length:", len(x) )
+print("list x length:", len(x))
 
 # Print all the values in x multiplied by 1000
 for i in x:
-    print( i * 1000)
+    print(i * 1000)
