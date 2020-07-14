@@ -30,7 +30,7 @@ newFile.close()
 - takes in two arguments(name of new file and the text for the file)
 - should be coming from inputs rather than parameters on the functions. Two inputs.
 - open/create file...need to dynamically add file name to the path on `open()`...format string method?
-- succuss message.
+- success message.
 """
 
 
