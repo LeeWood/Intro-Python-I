@@ -1,1 +1,3 @@
-Hi friends...I'm the new file on the block.
+This is the first line. 
+This is the second line. 
+This line refuses to be defined by a number.

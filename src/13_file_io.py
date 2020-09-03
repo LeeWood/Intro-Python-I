@@ -20,7 +20,11 @@ f.close()
 # sure that it contains what you expect it to contain
 
 newFile = open(r'C:\Users\Aleesha\LAMBDA_PROJECTS\cs\Intro-Python-I\src\bar.txt', 'w')
-newFile.write("Hi friends...I'm the new file on the block.")
+newFile.write(
+    """This is the first line. 
+This is the second line. 
+This line refuses to be defined by a number."""
+)
 newFile.close()
 
 
